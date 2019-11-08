@@ -65,7 +65,7 @@
 
         <h3><strong>Question 2</strong></h3>
         <h4>You would rather stay in and watch movies with friends.</h4>
-        <select class="chosen-select" id="q2" style="display: none;">
+        <select class="chosen-select" id="q2">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -88,13 +88,13 @@
         <h4>Appearance and material things are a high priority for you.</h4>
         <select class="chosen-select" id="q3" >
             <option value=""></option>
-            <option value="1">1 (Strongly Disagree)</option>
+            <option value="1">1 </option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
+            <option value="5">5 </option>
         </select>
-        <div class="chosen-container chosen-container-single" style="width: 155px;" title="" id="q3_chosen"><a
+        <!-- <div class="chosen-container chosen-container-single" style="width: 155px;" title="" id="q3_chosen"><a
                 class="chosen-single chosen-default"><span>Select an Option</span>
                 <div><b></b></div>
             </a>
@@ -102,18 +102,18 @@
                 <div class="chosen-search"><input type="text" autocomplete="off"></div>
                 <ul class="chosen-results"></ul>
             </div>
-        </div>
+        </div> -->
 
 
         <h3><strong>Question 4</strong></h3>
         <h4>You seek out spirited debates on a wide variety of topics.</h4>
         <select class="chosen-select" id="q4" >
             <option value=""></option>
-            <option value="1">1 (Strongly Disagree)</option>
+            <option value="1">1 </option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
+            <option value="5">5 </option>
         </select>
         <div class="chosen-container chosen-container-single" style="width: 155px;" title="" id="q4_chosen"><a
                 class="chosen-single chosen-default"><span>Select an Option</span>
@@ -130,11 +130,11 @@
         <h4>You put a high priority on job titles, social status and income.</h4>
         <select class="chosen-select" id="q5" >
             <option value=""></option>
-            <option value="1">1 (Strongly Disagree)</option>
+            <option value="1">1 </option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
+            <option value="5">5 </option>
         </select>
         <div class="chosen-container chosen-container-single" style="width: 155px;" title="" id="q5_chosen"><a
                 class="chosen-single chosen-default"><span>Select an Option</span>
@@ -151,11 +151,11 @@
         <h4>You consider yourself a creative type and seek out creative types of activities.</h4>
         <select class="chosen-select" id="q6" >
             <option value=""></option>
-            <option value="1">1 (Strongly Disagree)</option>
+            <option value="1">1 </option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
+            <option value="5">5 </option>
         </select>
         <div class="chosen-container chosen-container-single" style="width: 155px;" title="" id="q6_chosen"><a
                 class="chosen-single chosen-default"><span>Select an Option</span>
@@ -270,17 +270,20 @@
         var currentUser = {
             name: $("#name").val().trim(),
             photo: $("#photo").val().trim(),
-            q1: $("#q1").val().trim(),
-            q2: $("#q1").val().trim(),
-            q3: $("#q1").val().trim(),
-            q4: $("#q1").val().trim(),
-            q5: $("#q1").val().trim(),
-            q6: $("#q1").val().trim(),
-            q7: $("#q1").val().trim(),
-            q8: $("#q1").val().trim(),
-            q9: $("#q1").val().trim(),
-            q10: $("#q1").val().trim()
-            
+            score:[
+
+
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim(),
+             $("#q1").val().trim()
+        ]
             
 
         }

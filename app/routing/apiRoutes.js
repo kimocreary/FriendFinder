@@ -10,11 +10,12 @@ module.exports = function(app) {
            friendDifference: Infinity,
        }
        var currentFriend = req.body
+       console.log(currentFriend)
        var totalScore = 0
        for (let i=0; i< friends.length; i++) {
         var totalScore = 0
            for (let j=0; j< friends[i].score.length; j++) {
-            totalScore += Math.abs(friends[i].score[j]-currentFriend.score[j])
+            totalScore += Math.abs(friends[i].score[j]-parseInt(currentFriend.score[j]))
            }
            if (totalScore<bestMatch.friendDifference){
                bestMatch.friendDifference = totalScore
