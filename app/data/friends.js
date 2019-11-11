@@ -38,10 +38,19 @@ var friends = [
     {
         name: "Constance",
         photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwir5sCTw93lAhVDT6wKHWoMDbAQjRx6BAgBEAQ&url=https%3A%2F%2Fabc.com%2Fshows%2Ffresh-off-the-boat%2Fcast%2Fjessica-huang&psig=AOvVaw35Er07cFas7iy7vrcONEZU&ust=1573402469495598",
-        score: [1, 3, 4, 2, ]
+        score: [1, 3, 4, 2, 5, 5, 3, 1, 2, 2]
 
+    },
+    {
+        name: "Hank",
+        photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj2htm2luHlAhWEZd8KHZxECnUQjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fchicagofire.fandom.com%252Fwiki%252FHank_Voight%26psig%3DAOvVaw1q-CHhI_-NW3qR0SL2Xy1n%26ust%3D1573527911761753&psig=AOvVaw1q-CHhI_-NW3qR0SL2Xy1n&ust=1573527911761753",
+        score: [1, 2, 2, 4, 5, 3, 2, 5, 3, 3]
+    },
+    {
+        name: "Raven", 
+        photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwinkIjel-HlAhXPJt8KHfRMCoIQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.refinery29.com%2Fen-us%2F2017%2F08%2F167573%2Fraven-symone-ravens-home-crazy-interview&psig=AOvVaw2mKoxP9uZWPQlvxGJINXPe&ust=1573528230648384",
+        score: [3, 5, 5, 4, 5, 4, 5, 4, 5, 5,]
     }
 ]
-// add 9 friends
 
 module.exports = friends
